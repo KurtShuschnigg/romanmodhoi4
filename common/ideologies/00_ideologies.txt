@@ -23,7 +23,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 0 0 255 }
+		color = { 6 12 87 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -83,7 +83,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 255 0 0 }
+		color = { 105 31 31 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -131,7 +131,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-color = { 66  113  69 }		
+color = { 60 87 6 }		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
 		
@@ -173,7 +173,7 @@ color = { 66  113  69 }
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 124 124 124 }
+		color = { 62 67 75 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
