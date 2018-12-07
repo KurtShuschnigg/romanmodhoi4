@@ -1,11 +1,12 @@
 ﻿capital = 2
 
-oob = "OSK_1936"
+oob = "OGK_1936"
 
 set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
+    structured
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation

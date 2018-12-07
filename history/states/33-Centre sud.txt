@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = FRK
+		owner = VIS
 		
 		buildings = {
 			infrastructure = 6
