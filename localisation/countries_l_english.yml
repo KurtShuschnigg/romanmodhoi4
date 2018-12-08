@@ -1,6 +1,7 @@
 ﻿l_english:
  
 #####################
+
 OGK_fascism:0 "Ostrogothic Kingdom"
 OGK_democratic:0 "Roman Republic"
 OGK_communism:0 "Western Roman Empire"
@@ -21,6 +22,9 @@ ERE_democratic:0 "Eastern Roman Republic"
 ERE_fascism:0 "Ottoman Empire"
 RKD_neutrality:0 "Old Roman Africa"
 SUE_fascism:0 "Suebi Kingdom"
+SUE_democratic:0 "Suebi Republic"
+SUE_neutrality:0 "Suebi Kingdom"
+SUE_communism:0 "Suebi Empire"
 FRS_fascism:0 "Frisians"
 SAX_fascism:0 "Saxons"
 ALA_democratic:0 "Alemanni"
