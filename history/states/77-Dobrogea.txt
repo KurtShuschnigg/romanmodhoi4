@@ -13,6 +13,7 @@ state={
 			industrial_complex = 2
 		}
 		add_core_of = ERE
+		add_claim_by = SKL
 	}
 
 	provinces={
