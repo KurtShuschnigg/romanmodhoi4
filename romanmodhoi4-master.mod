@@ -1,5 +1,5 @@
 name="Shattered Empire"
-path="mod/romansplit/"
+path="mod/romanmodhoi4-master/"
 tags={
 	"Alternative History"
 	"National Focuses"
