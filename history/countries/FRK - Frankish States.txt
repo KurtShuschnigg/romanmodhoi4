@@ -6,6 +6,7 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
+    roman_victor
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -430,18 +431,4 @@ create_equipment_variant = {
 			sub_torpedo_upgrade = 1
 		}
 	}
-}
-
-if = {
-    limit = {
-        has_dlc = "Together for Victory"
-    }
-    set_autonomy = {
-        target = ALA
-        autonomous_state = autonomy_puppet
-        freedom_level = 0.5
-    }
-    else = {
-        puppet = ALA
-    }
 }

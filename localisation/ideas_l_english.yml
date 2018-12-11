@@ -1,8 +1,8 @@
 ﻿l_english:
- fascist_influence:0 "Germanic Influence"
- fascist_influence_desc:0 "Germanic pressure is very high in this country, and the country is susceptible to align with other Germanic Nations."
- communist_influence:0 "Imperial Influence"
- communist_influence_desc:0 "Nearby Imperialism is highly influencing this country, and the country is susceptible to align with other Imperialists."
+ fascist_influence:0 "Fascist Influence"
+ fascist_influence_desc:0 "Fascist pressure has made fascism very popular, and the country is susceptible to align with other fascists."
+ communist_influence:0 "Communist Influence"
+ communist_influence_desc:0 "Communist pressure has made communism very popular, and the country is susceptible to align with other communist."
  democratic_influence:0 "Democratic Influence"
  democratic_influence_desc:0 "Democratic pressure has made democracy very popular, and the country is susceptible to align with other democrats."
  soviet_german_friendship:0 "Soviet-German Friendship"
