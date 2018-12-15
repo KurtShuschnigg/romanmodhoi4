@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  
 ##################### for tribes use non-aligned (_neutrality + add tribal state idea in /history)
 OGK_fascism:0 "Ostrogothic Kingdom"
@@ -61,6 +61,7 @@ SCL_communism:0 "Sclaveni Empire"
 HNS_fascism:0 "The Huns"
 HNS_communism:0 "The Huns"
 HNS_democratic:0 "The Hunnic Republic"
+HNS_neutrality:0 "The Huns"
 GMM_fascism:0 "Germanii"
 GMM_communism:0 "Kingdom Of Germani"
 GMM_democratic:0 "Tribal Council of Germani"
