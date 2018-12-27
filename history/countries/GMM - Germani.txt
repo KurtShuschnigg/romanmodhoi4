@@ -1,11 +1,12 @@
 ﻿capital = 2
 
-###oob = "Van_1936"
+oob = "GMM_1936"
 
-set_research_slots = 4
-set_stability = 0.6
-set_war_support = 0.7
+set_research_slots = 1 ###very weak at first
+set_stability = 0.1
+set_war_support = 1.0 #warmongering tribe
 add_ideas = {
+	anarchy
     roman_victor
 	limited_exports
 	limited_conscription
@@ -147,12 +148,15 @@ set_convoys = 200
 set_politics = {
 
 	parties = {
+		anarchy = { 
+			popularity = 30
+		}
 		democratic = { 
 			popularity = 1
 		}
 
 		fascism = {
-			popularity = 97
+			popularity = 67
 		}
 		
 		communism = {
@@ -170,9 +174,9 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Genseric"
+	name = "Anarchy!"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "gen.dds"
+	picture = "gmw.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -201,6 +205,17 @@ create_country_leader = {
 		
 	}
 }
+
+###create_country_leader = {
+	#name = "Council Of the Tribes"
+	#desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
+	#picture = "council.dds"
+	#expire = "1965.1.1"
+	#ideology = nazism
+	#traits = {
+			
+	#					}
+		#			}
 
 ### Ship Variants ###
 

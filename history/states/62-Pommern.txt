@@ -10,7 +10,7 @@ state={
 	history={
 		owner = GMM
 		buildings = {
-			infrastructure = 6
+			infrastructure = 1
 		}
 		add_core_of = GMM
 

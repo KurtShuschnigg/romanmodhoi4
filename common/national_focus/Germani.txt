@@ -1,0 +1,223 @@
+focus_tree = {
+	id = Germani_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			tag = GMM
+		}
+	}
+
+	focus = {
+		id = GMM_anarchy
+		icon = GFX_goal_generic_major_alliance
+		x = 10
+		y = 1
+		cost = 25
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		GMM = {
+			add_political_power = -1000
+		}
+	}
+	}
+
+	focus = {
+		id = GMM_path_to_solve
+		icon = GFX_goal_generic_major_alliance
+		mutually_exclusive = { focus = GMM_ignoretheproblems }
+		x = 15
+		y = 2
+		cost = 25
+		prerequisite = { focus = GMM_anarchy }
+		available_if_capitulated = yes
+
+		completion_reward = {
+		GMM = {
+			add_political_power = -10
+
+		}
+	}
+	}
+	
+	focus = {
+		id = GMM_connections
+		icon = goal_generic_construction
+		x = 15
+		y = 3
+		cost = 25
+		prerequisite = { focus = GMM_path_to_solve }
+		available_if_capitulated = yes
+
+		completion_reward = {
+		GMM = {
+			add_political_power = -10
+			63 = {
+					if = {
+						limit = { is_controlled_by = GMM }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 4
+							instant_build = yes
+						}
+					}
+				}
+
+		}
+	}
+	}
+
+focus = {
+		id = GMM_ignoretheproblems
+		icon = GFX_goal_generic_political_pressure
+		x = 5
+		y = 2
+		cost = 25
+		prerequisite = { focus = GMM_anarchy }
+		available_if_capitulated = yes
+
+		completion_reward = {
+		GMM = {
+			add_political_power = 100
+			remove_ideas = anarchy
+			add_ideas = acceptance_of_anarchy
+
+		}
+	}
+	}
+
+focus = {
+		id = GMM_problems_anyway
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 1
+		cost = 25
+		prerequisite = { focus = GMM_ignoretheproblems }
+		available_if_capitulated = yes
+		relative_position_id = GMM_ignoretheproblems
+		completion_reward = {
+		GMM = {
+			add_political_power = -100
+			start_civil_war = {
+				ideology = neutrality
+				size = 0.1
+		}
+	}
+	}
+	}
+focus = {
+		id = GMM_pledeallegience
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 1
+		cost = 15
+		prerequisite = { focus = GMM_connections }
+		available_if_capitulated = no
+		relative_position_id = GMM_connections
+		completion_reward = {
+		GMM = {
+			add_political_power = -1000
+			remove_ideas = anarchy
+			add_ideas = refusal_of_anarchy
+	}
+	}
+}
+focus = {
+		id = GMM_leader
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 1
+		cost = 15
+		prerequisite = { focus = GMM_pledeallegience }
+		available_if_capitulated = no
+		relative_position_id = GMM_pledeallegience
+		completion_reward = {
+		GMM = {
+					kill_country_leader = yes
+		create_country_leader = {
+						name = "Council Of the Tribes"
+						desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
+						picture = "council.dds"
+						expire = "1965.1.1"
+						ideology = nazism
+						traits = {
+			
+						}
+					}
+			add_political_power = 2600
+	}
+	}
+
+
+}
+focus = {
+		id = GMM_thecouncilsways
+		icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = GMM_leader }
+		#mutually_exclusive = { focus = liberty_ethos}
+		x = -4
+		y = 1
+
+		relative_position_id = GMM_leader
+
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = communist_influence
+		}
+	}
+
+focus = {
+		id = GMM_thepeoplesways
+		icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = GMM_leader }
+		mutually_exclusive = { focus = GMM_thecouncilsways }
+		x = 4
+		y = 1
+
+		relative_position_id = GMM_leader
+
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = democratic_influence
+		}
+	}
+
+
+	focus = {
+		id = GMM_forthepeople
+		icon = GFX_goal_generic_major_alliance
+		x = 0
+		y = 1
+		cost = 25
+		prerequisite = { focus = GMM_leader }
+		available_if_capitulated = yes
+		relative_position_id = GMM_leader
+		completion_reward = {
+		GMM = {
+			add_political_power = -10
+
+		}
+	}
+	}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+		69 = { add_core_of = GER }
+		GER = { transfer_state = 69 }

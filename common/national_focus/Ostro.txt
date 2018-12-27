@@ -56,7 +56,7 @@ focus = {
 		completion_reward = {
 			OGK = {
 				add_ideas = communist_influence
-				country_event = { id = Romewar.1 }
+				
 			}
 			}
 		}
@@ -407,6 +407,7 @@ focus = {
 		y = 1
 		cost = 20
 		completion_reward = {
+		set_cosmetic_tag = OGK_rome_restored
 			create_wargoal = {
 				type = take_state_focus
 				target = FRK

@@ -5,7 +5,7 @@ state={
 	
 	state_category = town
 	history={
-		owner = GMM
+		owner = VVV
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -13,7 +13,7 @@ state={
 		victory_points = {
 			9508 1
 		}
-		add_core_of = GMM
+		add_core_of = VVV
 
 		1939.1.1 = {
 			buildings = {

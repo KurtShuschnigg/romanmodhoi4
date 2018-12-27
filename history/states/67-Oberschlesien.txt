@@ -11,11 +11,11 @@ state={
 	state_category = city
 
 	history={
-		owner = GMM
+		owner = LLL
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = GMM
+		add_core_of = LLL
 	}
 
 	provinces={

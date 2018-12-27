@@ -15,12 +15,12 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
+			"Res Publica"
+			"The Republic of Rome"
+			"The Republican Alliance"
+			"The Holy Republic"
+			"The Great Republic"
+			"Greater Rome"
 		}
 		
 		color = { 6 12 87 }
@@ -76,11 +76,11 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
+			"The Realm of the Goths"
+			"The Roman Empire"
+			"The New Roman Empire"
+			"Tribal Imperial Alliance"
+			"Roman Imperial Pact"
 		}
 		
 		color = { 105 31 31 }
@@ -124,11 +124,11 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
+			"Gothic Tribal Alliance"
+			"The Goths"
+			"The Grand Alliance"
+			"New Rome"
+			"Germanic Alliance"
 		}
 		
 color = { 60 87 6 }		
@@ -166,11 +166,11 @@ color = { 60 87 6 }
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
+			"Tribal Protection Alliance"
+			"Alliance of Peoples"
+			"Old Rome"
+			"Tribal Alliance"
+			"The Tribal Pact"
 		}
 		
 		color = { 62 67 75 }
@@ -203,6 +203,55 @@ color = { 60 87 6 }
 
 		ai_neutral = yes # 
 	}
+
+anarchy = {
+	
+		types = {
+			
+			Anarchism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"Tribes"
+			"Tribal Empire"
+			"The Tribal Alliance"
+			"War Pact"
+			"Barbaric Invasion Alliance"
+			"Tribal Pact"
+		}
+		
+		color = { 47 68 3 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_fascist = yes # uses the democratic AI behaviour
+	}
+
 
 
 
