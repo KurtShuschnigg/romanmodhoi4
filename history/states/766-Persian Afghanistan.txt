@@ -1,0 +1,14 @@
+state={
+	id=766
+	name="STATE_766"
+	provinces={
+		1948 1995 2017 2062 2078 2101 4893 4949 5020 5064 7448 7584 7984 8053 10476 10789 10896 12788 12871 12877 
+	}
+	manpower=12931
+	buildings_max_level_factor=1.000
+	history= {
+		owner = SAS
+		add_core_of = SAS
+		}
+	}
+}
