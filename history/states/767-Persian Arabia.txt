@@ -2,13 +2,11 @@ state={
 	id=767
 	name="STATE_767"
 	provinces={
-		1955 4932 8051 10791 10850 12702 12749 
+		1955 4932 10791 10850 12702 12749 
 	}
-	manpower=13420
+	manpower=0
 	buildings_max_level_factor=1.000
-	history= {
+	history={
 		owner = SAS
-		add_core_of = SAS
-		}
 	}
 }
