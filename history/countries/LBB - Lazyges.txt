@@ -54,33 +54,21 @@ set_stability = 0.8
 		dispersed_industry2 = 1
 	}
 }
-
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 3
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 30
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 67
-		}
-	}
-	
 	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
+	last_election = "1935.5.19"
+	election_frequency = 60
 	elections_allowed = no
 }
+
+set_popularities = {
+	democratic = 3
+	neutrality = 67
+	fascism = 30
+	communism = 0
+}
+
+
 
 create_country_leader = {
 	name = "Local Chief"

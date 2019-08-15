@@ -50,6 +50,19 @@ set_stability = 0.8
 		dispersed_industry2 = 1
 	}
 }
+set_politics = {
+	ruling_party = communism
+	last_election = "1935.5.19"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	neutrality = 28
+	fascism = 30
+	communism = 42
+}
 
 set_politics = {
 
