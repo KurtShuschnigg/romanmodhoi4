@@ -76,10 +76,9 @@ anarchy = {
 			removal_cost = -1
 			
 			modifier = {
-				drift_defence_factor = 1
-				fascism_drift = 0.1
-				war_support_factor = 0.2
-				political_power_gain = -1.89
+				war_support_factor = -0.2
+				political_power_cost = 0.40
+				stability_factor = -0.30
 			}
 		}
 		

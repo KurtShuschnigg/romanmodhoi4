@@ -2,7 +2,7 @@
 state={
 	id=57
 	name="STATE_57"
-	manpower = 5109333
+	manpower = 310933
 	state_category = large_city
 
 	history={
@@ -11,11 +11,9 @@ state={
 			495 5 
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 2
 			arms_factory = 3
-			industrial_complex = 1
-			air_base = 3
-
+			industrial_complex = 2
 		}
 		add_core_of = SAX
 

@@ -2,10 +2,9 @@
 state={
 	id=20
 	name="STATE_20" # Rhone
-	manpower = 2973200
+	manpower = 597320
 	resources={
-		steel=60 # was: 128
-		aluminium=35 # was: 72
+		steel=12 # was: 128
 	}
 
 	state_category = city
@@ -16,10 +15,9 @@ state={
 			6613 10
 		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 1
+			infrastructure = 3
+			arms_factory = 3
 			industrial_complex = 2
-			air_base = 4
 		}
 		add_core_of = BKD
 		1939.1.1 = {

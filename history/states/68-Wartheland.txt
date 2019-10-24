@@ -2,9 +2,9 @@
 state={
 	id=68
 	name="STATE_68"
-	manpower = 1250840
+	manpower = 155084
 	resources={
-		aluminium=15 # was: 24
+		aluminium=2 # was: 24
 	}
 
 	state_category = city
@@ -12,7 +12,7 @@ state={
 	history={
 		owner = GMM
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			industrial_complex = 1
 		}
 		add_core_of = GMM

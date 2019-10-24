@@ -2,11 +2,9 @@
 state={
 	id=60
 	name="STATE_60"
-	manpower = 3005214
+	manpower = 270205
 	resources={
-		steel=13 # was: 20
-		chromium = 3 # was: 4
-		tungsten = 3 # was: 4
+		steel=1 # was: 20
 	}
 	
 	state_category = large_city
@@ -15,7 +13,7 @@ state={
 		owner = THY
 		victory_points = { 6524 5 }
 		buildings = {
-			infrastructure = 6
+			infrastructure = 2
 			industrial_complex = 1
 		}
 		add_core_of = THY		1939.1.1 = {

@@ -5,7 +5,7 @@ state={
 	history={
 		owner = GEP
 		buildings = {
-			infrastructure = 6
+			infrastructure = 2
 
 		}
 		add_core_of = GEP
@@ -15,7 +15,7 @@ state={
 	provinces={
 		614 619 3614 3617 3623 6643 9608 9621 11580 11787 
 	}
-	manpower=1026200
+	manpower=326200
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

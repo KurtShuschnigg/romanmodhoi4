@@ -2,12 +2,11 @@
 state={
 	id=41
 	name="STATE_41" # Madrid
-	manpower = 2269659
+	manpower = 659659
 
 	state_category = city
 
 	resources={
-		aluminium=1 # was: 2
 	}
 
 	history={
@@ -16,9 +15,8 @@ state={
 			3938 30.0 
 		}
 		buildings = {
-			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 3
+			infrastructure = 1
+			industrial_complex = 1
 			air_base = 6
 		}
 		add_core_of = VIS

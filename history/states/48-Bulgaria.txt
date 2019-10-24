@@ -2,11 +2,9 @@
 state={
 	id=48
 	name="STATE_48"
-	manpower = 1891500
+	manpower = 91200
 	resources={
-		aluminium=1 # was: 2
 	}
-	
 	
 	state_category = city
 
@@ -16,9 +14,8 @@ state={
 			949 15 
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 6
-			air_base = 3
+			infrastructure = 4
+			industrial_complex = 1
 		}
 		add_core_of = ERE
 	}

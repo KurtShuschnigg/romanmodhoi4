@@ -2,14 +2,13 @@
 state={
 	id=22
 	name="STATE_22" # Languedoc
-	manpower = 1691200
+	manpower = 369120
 	
 	
 	state_category = town
 	
 	resources={
-		steel=70 # was: 136
-		aluminium=50 # was: 96
+		steel=6 # was: 136
 	}
 
 	history={
@@ -18,9 +17,8 @@ state={
 			9898 1 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 2
 			industrial_complex = 2
-			air_base = 2
 		}
 		add_core_of = VIS
 	}

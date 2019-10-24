@@ -2,15 +2,15 @@
 state={
 	id=35
 	name="STATE_35" # Brabant
-	manpower = 1449000
+	manpower = 144900
 	
 	state_category = city
 
 	history={
 		owner = FRK
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 5
+			infrastructure = 2
+			industrial_complex = 2
 		}
 		victory_points = {
 			6496 5

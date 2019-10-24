@@ -2,16 +2,15 @@
 state={
 	id=55
 	name="STATE_55"
-	manpower = 3798235
+	manpower = 279823
 
 	state_category = large_city
 
 	history={
 		owner = FRK
 		buildings = {
-			infrastructure = 7
+			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2
 		}
 		victory_points = {
 			6488 20.0 

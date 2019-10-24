@@ -2,7 +2,7 @@
 state={
 	id=31
 	name="STATE_31"
-	manpower = 1825000
+	manpower = 78500
 	
 	state_category = city
 
@@ -12,11 +12,8 @@ state={
 			6766 5 
 		}
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 1
-			air_base = 2
-
+			infrastructure = 3
+			arms_factory = 2
 		}
 		add_core_of = VIS
 	}

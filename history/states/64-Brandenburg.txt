@@ -2,7 +2,7 @@
 state={
 	id=64
 	name="STATE_64"
-	manpower = 7265029
+	manpower = 525029
 	buildings_max_level_factor = 1
 
 	state_category = megalopolis
@@ -19,10 +19,7 @@ state={
 		buildings = {
 			infrastructure = 1
 			arms_factory = 2
-			industrial_complex = 4
-			anti_air_building = 0
-			air_base = 0
-
+			industrial_complex = 2
 		}
 		add_core_of = THY
 

@@ -2,20 +2,20 @@
 state={
 	id=65
 	name="STATE_65"
-	manpower = 5592576
+	manpower = 35925
 	resources={
-		steel=53 # was: 90
+		steel=12 # was: 90
 	}
 
-	state_category = metropolis
+	state_category = town
 
 
 	history={
 		owner = THY
 		buildings = {
 			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 7
+			arms_factory = 1
+			industrial_complex = 1
 		}
 		victory_points = {
 			514 5 

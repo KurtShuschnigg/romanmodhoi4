@@ -1,0 +1,115 @@
+focus_tree = {
+	id = vandal_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			tag = VAN
+		}
+	}
+
+	focus = {
+		id = VAN_thrasamunds_kingdom
+		icon = VAN_gundahar_kinhddom
+		x = 4
+		y = 1
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		VAN = {
+			unlock_national_focus = VAN_berber_question
+		}
+	}
+	}
+	focus = {
+			id = VAN_arianism_reinforce
+			icon = VAN_orthodox_burn_in_hell
+			prerequisite = { focus = VAN_thrasamunds_kingdom }
+			mutually_exclusive = { focus = VAN_orthodox_tolerance }
+			x = 4
+			y = 2
+			cost = 10
+			completion_reward = {
+				VAN = {
+					add_ideas = arianism_enforced
+				}
+			}
+			}
+
+	focus = {
+			id = VAN_orthodox_tolerance
+			icon = VAN_orthodox_acceptance
+			prerequisite = { focus = VAN_thrasamunds_kingdom }
+			mutually_exclusive = { focus = VAN_arianism_reinforce }
+			x = 2
+			y = 2
+			cost = 10
+			completion_reward = {
+				VAN = {
+					add_ideas = orthodox_tolerance
+				}
+			}
+			}
+
+	focus = {
+			id = VAN_gov_review
+			icon = GFX_goal_generic_small_arms
+			prerequisite = { focus = VAN_orthodox_tolerance OR VAN_arianism_reinforce }
+			x = 2
+			y = 3
+			cost = 10
+			completion_reward = {
+				VAN = {
+					add_political_power = -10
+				}
+			}	
+			}
+
+	focus = {
+			id = VAN_orthodox_scum
+			icon = GFX_goal_generic_small_arms
+			prerequisite = { focus = VAN_arianism_reinforce }
+			x = 4
+			y = 3
+			cost = 15
+			completion_reward = {
+				VAN = {
+					unlock_decision_tooltip = { decision = vandal_arrange_killings show_effect_tooltip = yes show_modifiers = yes }
+					set_variable = {
+        				var = decisions_taken
+        				value = 1
+    				}
+				}
+			}	
+			}
+
+	focus = {
+			id = VAN_ortho_purge
+			icon = GFX_goal_generic_small_arms
+			prerequisite = { focus = VAN_orthodox_scum }
+			x = 4
+			y = 4
+			cost = 12
+			completion_reward = {
+				VAN = {
+						add_manpower = -10000
+						remove_ideas = {
+							orthodox_unrest
+						}
+    				}
+				}
+			}	
+			}
+	
+}
+}
+
+
+
+
+	
+	

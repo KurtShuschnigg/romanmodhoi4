@@ -61,7 +61,7 @@ set_convoys = 10
 
 
 create_country_leader = {
-	name = "-need to look up-"
+	name = "Kavad I"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "BUR.dds"
 	expire = "1965.1.1"
@@ -71,7 +71,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sclaveni Council"
+	name = "Persian Council"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "GUR.dds"
 	expire = "1965.1.1"
@@ -82,7 +82,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Failed Political Standing"
+	name = "Kavad I"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "NUR.dds"
 	expire = "1965.1.1"

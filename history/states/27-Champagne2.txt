@@ -2,12 +2,12 @@
 state={
 	id=27
 	name="STATE_27" # Bourgogne
-	manpower = 1370800
+	manpower = 137080
 	
 	state_category = city
 	
 	resources={
-		aluminium=11 # was: 18
+		aluminium=1 # was: 18
 	}
 
 	history={
@@ -16,9 +16,8 @@ state={
 			3652 5 
 		}
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 2
-			air_base = 2
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = FRK
 		1939.1.1 = {

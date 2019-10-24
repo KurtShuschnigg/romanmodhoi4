@@ -1,12 +1,13 @@
-﻿capital = 2
+﻿capital = 458
 
 oob = "Van_1936"
 
-set_research_slots = 4
-set_stability = 0.6
-set_war_support = 0.7
+set_research_slots = 3
+set_stability = .4
+set_war_support = 0.54
 add_ideas = {
-    roman_victor
+    moor_unrest
+    gaiseric_law
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation

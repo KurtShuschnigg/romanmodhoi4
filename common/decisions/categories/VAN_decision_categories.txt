@@ -1,0 +1,13 @@
+
+VAN_crush_orthodox = {
+
+	icon = generic_propaganda
+	allowed = {
+		original_tag = VAN
+	}
+	visible = {
+		VAN = {
+			has_completed_focus = VAN_orthodox_scum
+		}
+	}
+}

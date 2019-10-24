@@ -1,0 +1,92 @@
+
+VAN_crush_orthodox = {
+
+	vandal_arrange_killings = {
+
+		icon = generic_oppression
+		
+		available = {
+			has_idea = orthodox_unrest
+		}
+
+		highlight_states = {
+			state = 714
+		}
+
+		set_variable = {
+    		var = var_vandal_decount
+    		value = 0
+		}
+
+		set_variable = {
+    		var = var_vandal_limit
+    		value = 15
+		}
+
+		cost = 100
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 200
+			}
+		}
+
+		visible = {
+			has_completed_focus = VAN_orthodox_scum
+		}
+
+		is_good = yes
+
+		complete_effect = {
+			add_to_variable = {
+    			var = var_vandal_decount
+    			value = 1
+			}
+
+			check_variable = {
+    			var = var_vandal_decount
+   				value = var_vandal_limit
+    			compare = equals
+			}
+
+			if = {
+    			limit = {
+       				var_vandal_decount = var_vandal_limit
+  				 }
+    			else = {
+       		 		has_war_support > 0.5
+   				}
+			}
+		}
+	}
+
+	vandal_arrange_killings_better = {
+
+		icon = generic_oppression
+		
+		available = {
+			has_idea = orthodox_unrest
+		}
+
+		cost = 50
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 200
+			}
+		}
+
+		visible = {
+			has_completed_focus = VAN_orthodox_scum
+		}
+
+		is_good = yes
+
+		complete_effect = {
+			add_to_variable = { var = decisions_taken value = 1 }
+		}
+	}
+}
+	

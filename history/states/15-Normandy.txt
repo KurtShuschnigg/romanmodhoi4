@@ -2,9 +2,9 @@
 state={
 	id=15
 	name="STATE_15"
-	manpower = 2332100
+	manpower = 125210
 	resources={
-		steel=21 # was: 36
+		steel=12 # was: 36
 	}
 	
 	state_category = city
@@ -21,16 +21,8 @@ state={
 			11563 5
 		}
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 2
-			air_base = 6
-			6449 = {
-				naval_base = 5
-				coastal_bunker = 1
-			}
-			485= {
-				naval_base = 1
-			}
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = FRK
 	}

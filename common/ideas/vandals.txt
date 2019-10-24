@@ -1,0 +1,155 @@
+ideas = {
+country = {
+	moor_unrest = {
+				picture = great_depression
+				allowed = {
+					always = yes
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					
+					political_power_cost = 0.4
+					stability_factor = -0.4
+				}
+			}
+
+	gaiseric_law = {
+				picture = idea_generic_king_handled
+				allowed = {
+					always = yes
+				}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.20
+				political_power_cost = 0.10
+				
+
+			}
+		}
+	arianism_enforced = {
+				picture = idea_generic_king_handled
+				allowed = {
+					always = yes
+				}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.10
+
+			}
+		}
+
+	orthodox_tolerance = {
+				picture = idea_generic_king_handled
+				allowed = {
+					always = yes
+				}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				political_power_cost = 0.10
+			}
+		}
+
+	orthodox_unrest = {
+				picture = idea_generic_king_handled
+				allowed = {
+					always = yes
+				}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.4
+				political_power_cost = 0.20
+			}
+		}
+
+	orthodox_unrest_2 = {
+				picture = idea_generic_king_handled
+				allowed = {
+					always = yes
+				}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.3
+				political_power_cost = 0.15
+			}
+		}
+
+	orthodox_unrest_3 = {
+				picture = idea_generic_king_handled
+				allowed = {
+					always = yes
+				}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_cost = 0.10
+			}
+		}
+
+	orthodox_unrest_4 = {
+				picture = idea_generic_king_handled
+				allowed = {
+					always = yes
+				}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_cost = 0.5
+			}
+		}
+
+
+
+
+}
+}
+

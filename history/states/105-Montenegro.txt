@@ -2,8 +2,6 @@ state={
 	id=105
 	name="STATE_105"
 	resources={
-		chromium=20.000
-		aluminium=70.000
 	}
 
 	history={
@@ -13,11 +11,10 @@ state={
 		owner = ERE
 		add_core_of = ERE
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 1
 			9809 = {
 				naval_base = 1
-
 			}
 
 		}
@@ -28,7 +25,7 @@ state={
 	provinces={
 		937 6913 9809 9821 11858 
 	}
-	manpower=895500
+	manpower=5500
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
